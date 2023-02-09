@@ -9,4 +9,11 @@ describe("When dog component is rendered", () => {
     const clickMeText = screen.getByRole("heading", { level: 3 });
     expect(clickMeText).toBeInTheDocument();
   });
+
+  test("an image is rendered on screen when component is mounted", () => {
+    render(<DogImage />);
+
+    const dogImage = screen.getByRole("button");
+    expect(dogImage).toBeInTheDocument();
+  });
 });
