@@ -1,5 +1,6 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import CatFact from "./CatFact";
+import React from "react";
 
 describe("When the home page is rendered", () => {
   test("load a div with a 'p' tag inside that will render cat facts", () => {
