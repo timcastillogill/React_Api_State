@@ -10,12 +10,13 @@ section.catFact {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 p.factText {
   text-align: center;
   padding: 2%;
-  font-size: 100%;
+  font-size: 1.5vh;
 }
 
 .factButton .newbtn {
